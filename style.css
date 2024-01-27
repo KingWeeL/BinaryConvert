@@ -1,0 +1,140 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 20px;
+	text-align: center;
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url(image/bg\ biner.png);
+    
+}
+
+
+
+.container {
+	width: auto;
+	margin: 0 auto;
+	padding: 40px;
+	border-radius: 8px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+	margin-bottom: 40px;
+	color: black;
+	font-size: 30px;
+}
+
+label {
+	display: block;
+    text-align: left;
+    margin-top: 15px;
+	margin-bottom: 10px;
+	color: #555;
+}
+
+input[type="text"],
+input[type="number"],
+button {
+	padding: 10px;
+	font-size: 16px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	width: 100%;
+	margin-bottom: 10px;
+	box-sizing: border-box;
+}
+
+button {
+	margin-top: 15px;
+	background: linear-gradient(to right, #2e43a0, aqua);
+	color: #fff;
+	border: none;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+button:hover {
+	background: linear-gradient(to right, #000000, #00ff4c);
+
+}
+
+.steps {
+	margin-top: 30px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	font-size: 17px;
+    gap: 10px;
+}
+
+.steps p {
+	background-color: rgba(0, 119, 255, 0.29);
+    padding: 5px;
+	border-radius: 5pt;
+}
+
+#hasilTotal {
+	font-weight: bold;
+	color: #161616;
+}
+
+.hidden {
+    display: none;
+  }
+
+  ul {
+    list-style-type: none;
+	margin: 0,5rem;
+	padding: 2rem;
+	margin-left: 80px;
+	display: flex;
+
+}
+
+ img {
+	width: 50px;
+	height: 50px;
+ }
+
+ h2 {
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+
+
+
+a:hover {
+    text-decoration: underline;
+}
+
+  @media only screen and (max-width: 600px) {
+	body {
+		height: 93vh;
+		background-image: url(image/bg\ biner\ mobile.png);
+	}
+
+	h1 {
+		text-align: left;
+	  font-size: 40px; /* Ubah ukuran judul agar sesuai dengan layar yang lebih kecil */
+	}
+  
+	.container {
+	  padding: 20px; /* Mengurangi padding agar konten lebih sesuai */
+	}
+  
+	.social-icons {
+		float: right;
+	}
+
+  }
+  
